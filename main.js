@@ -1,10 +1,10 @@
 let corpus = [
-  `Spooling - Simultaneous peripheral operations on-line is a process where data is temporarily held to be used and executed by a device, program, or system. It acts as a buffer, allowing the system to manage flow 
-efficiently. Spooling is commonly used in scenarios where data needs to be processed sequentially, such as printing. When multiple print jobs are sent to a printer they are spooled into a queue, allowing the printer to process
-each job one at a time without interruption. This ensures that the printer operates efficiently and that jobs are executed in the order they were recieved.`,
-  `Buffering is a technique used to manage data transter between devices or processes that operate
-on different speeds. A buffer is a temporary storage area that holds data while it is being transferred from one place to another. Buffer helps to smooth out the data flow, preventing bottlenecks and ensuring that the 
-receiving device or process can handle the data at its own pace`,
+  "Spooling - Simultaneous peripheral operations on-line is a process where data is temporarily held to be used and executed by a device, program, or system. It acts as a buffer, allowing the system to manage flow \
+efficiently. Spooling is commonly used in scenarios where data needs to be processed sequentially, such as printing. When multiple print jobs are sent to a printer they are spooled into a queue, allowing the printer to process\
+each job one at a time without interruption. This ensures that the printer operates efficiently and that jobs are executed in the order they were recieved.",
+  "Buffering is a technique used to manage data transter between devices or processes that operate\
+on different speeds. A buffer is a temporary storage area that holds data while it is being transferred from one place to another. Buffer helps to smooth out the data flow, preventing bottlenecks and ensuring that the \
+receiving device or process can handle the data at its own pace",
 ];
 const input = document.getElementById("corpus");
 const minute = document.getElementById("min");
