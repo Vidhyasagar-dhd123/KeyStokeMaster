@@ -18,6 +18,7 @@ let i = 0;
 let index = Math.round(Math.random() * 1);
 let prev = [];
 let next = "";
+let timer;
 panel.innerHTML = corpus[index];
 let previousDate = new Date();
 panel.onclick = () => {
@@ -29,7 +30,6 @@ window.onkeydown = () => {
   input.focus();
 };
 input.oninput = (event) => {
-  let timer;
   let min = 0;
   let sec = 0;
   if (!started) {
@@ -38,7 +38,7 @@ input.oninput = (event) => {
       sec++;
       if (sec >= 60) {
         sec = sec % 60;
-        min = min++;
+        min++;
       }
       minute.innerHTML =
         min.toString().padStart(2, "0") + ":" + sec.toString().padStart(2, "0");
