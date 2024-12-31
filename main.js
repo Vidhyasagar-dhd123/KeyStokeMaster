@@ -6,7 +6,7 @@ each job one at a time without interruption. This ensures that the printer opera
 on different speeds. A buffer is a temporary storage area that holds data while it is being transferred from one place to another. Buffer helps to smooth out the data flow, preventing bottlenecks and ensuring that the 
 receiving device or process can handle the data at its own pace`,
 ];
-const input = document.getElementById("corpus[index]");
+const input = document.getElementById("corpus");
 const minute = document.getElementById("min");
 const panel = document.getElementById("panel");
 const accuracy = document.getElementById("accuracy");
